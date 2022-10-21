@@ -11,10 +11,10 @@ export default defineConfig(({mode}) => ({
   plugins: [
     solidSvg(),
     solidPlugin(),
-    qiankun('orchy-solid-js-template', {useDevMode: true}),
+    qiankun('orchy-solid-js-typescript-template', {useDevMode: true}),
     visualizer(),
   ],
-  base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-solid-js-template/',
+  base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-solid-js-typescript-template/',
   server: {port, cors: true},
   test: {
     mockReset: true,
