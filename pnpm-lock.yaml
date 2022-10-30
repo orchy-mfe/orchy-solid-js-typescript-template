@@ -11,7 +11,7 @@ specifiers:
   jsdom: ^20.0.1
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
-  solid-js: ^1.6.0
+  solid-js: ^1.6.1
   solid-testing-library: ^0.3.0
   typescript: ^4.8.4
   vite: ^3.2.1
@@ -21,9 +21,9 @@ specifiers:
   vitest: ^0.24.3
 
 dependencies:
-  '@solidjs/router': 0.5.0_solid-js@1.6.0
+  '@solidjs/router': 0.5.0_solid-js@1.6.1
   rxjs: 7.5.7
-  solid-js: 1.6.0
+  solid-js: 1.6.1
 
 devDependencies:
   '@orchy-mfe/models': 0.0.1
@@ -34,12 +34,12 @@ devDependencies:
   eslint-plugin-solid: 0.7.4_wyqvi574yv7oiwfeinomdzmc3m
   jsdom: 20.0.1
   rollup-plugin-visualizer: 5.8.3
-  solid-testing-library: 0.3.0_solid-js@1.6.0
+  solid-testing-library: 0.3.0_solid-js@1.6.1
   typescript: 4.8.4
   vite: 3.2.1
   vite-plugin-qiankun: 1.0.15_qpqpptm6doui2bjlmcwwgpgdpe
-  vite-plugin-solid: 2.3.10_solid-js@1.6.0+vite@3.2.1
-  vite-plugin-solid-svg: 0.5.0_solid-js@1.6.0+vite@3.2.1
+  vite-plugin-solid: 2.3.10_solid-js@1.6.1+vite@3.2.1
+  vite-plugin-solid-svg: 0.5.0_solid-js@1.6.1+vite@3.2.1
   vitest: 0.24.3_jsdom@20.0.1
 
 packages:
@@ -532,12 +532,12 @@ packages:
     resolution: {integrity: sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A==}
     dev: true
 
-  /@solidjs/router/0.5.0_solid-js@1.6.0:
+  /@solidjs/router/0.5.0_solid-js@1.6.1:
     resolution: {integrity: sha512-rNR07l21tWWDVmCbaapggB89rEX7jlM2XChpTLqEGEnj46LzVZ8zgvjcF6NNKScByAlLpoQUkVIjB2KHpcMi+w==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
-      solid-js: 1.6.0
+      solid-js: 1.6.1
     dev: false
 
   /@testing-library/dom/7.31.2:
@@ -2912,12 +2912,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.6.0:
-    resolution: {integrity: sha512-db5s65ErgZnBhapPx77qauzul8akHlMCvirS+Y86U4abMa3uizMVNW9ql3UxbO0yMzMGNpFJwUiOlXmJCbwVpA==}
+  /solid-js/1.6.1:
+    resolution: {integrity: sha512-i8OmR419Hr0918Or6sm1ET/cgmxTtAB7Bdz/UwhZ7G2THixrvVSO3jd+C7YqMKKfVwmf8PJ2gUSbKE8NKv28GA==}
     dependencies:
       csstype: 3.1.0
 
-  /solid-refresh/0.4.1_solid-js@1.6.0:
+  /solid-refresh/0.4.1_solid-js@1.6.1:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -2925,17 +2925,17 @@ packages:
       '@babel/generator': 7.18.7
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.18.8
-      solid-js: 1.6.0
+      solid-js: 1.6.1
     dev: true
 
-  /solid-testing-library/0.3.0_solid-js@1.6.0:
+  /solid-testing-library/0.3.0_solid-js@1.6.1:
     resolution: {integrity: sha512-6NWVbySNVzyReBm2N6p3eF8bzxRZXHZTAmPix4vFWYol16QWVjNQsEUxvr+ZOutb0yuMZmNuGx3b6WIJYmjwMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
     dependencies:
       '@testing-library/dom': 7.31.2
-      solid-js: 1.6.0
+      solid-js: 1.6.1
     dev: true
 
   /source-map-js/1.0.2:
@@ -3205,19 +3205,19 @@ packages:
       vite: 3.2.1
     dev: true
 
-  /vite-plugin-solid-svg/0.5.0_solid-js@1.6.0+vite@3.2.1:
+  /vite-plugin-solid-svg/0.5.0_solid-js@1.6.1+vite@3.2.1:
     resolution: {integrity: sha512-22aVtQwnV95I4c0y4vw6ZZvkYxTpttTPcejSjFh/YR1hJjLk8MkXRjAp3SbnRUZ96NiOvY72IC1uKAU5Hr6qkQ==}
     peerDependencies:
       solid-js: ^1
       vite: '>=2.4'
     dependencies:
       fast-glob: 3.2.12
-      solid-js: 1.6.0
+      solid-js: 1.6.1
       svgo: 2.8.0
       vite: 3.2.1
     dev: true
 
-  /vite-plugin-solid/2.3.10_solid-js@1.6.0+vite@3.2.1:
+  /vite-plugin-solid/2.3.10_solid-js@1.6.1+vite@3.2.1:
     resolution: {integrity: sha512-5jMF+QFk2TQaPLlDl7LvZZ99D4kO1X+rD9LR78p9sx9O+XisVSQaHFPLrCsyW/lXuBwub+ox/pNaZdCUZJwd3Q==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -3227,8 +3227,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.6
       babel-preset-solid: 1.4.6_@babel+core@7.18.6
       merge-anything: 5.0.2
-      solid-js: 1.6.0
-      solid-refresh: 0.4.1_solid-js@1.6.0
+      solid-js: 1.6.1
+      solid-refresh: 0.4.1_solid-js@1.6.1
       vite: 3.2.1
     transitivePeerDependencies:
       - supports-color
