@@ -7,7 +7,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.42.0
   eslint: ^8.26.0
   eslint-config-prettier: ^8.5.0
-  eslint-plugin-solid: ^0.7.4
+  eslint-plugin-solid: ^0.8.0
   jsdom: ^20.0.2
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
@@ -31,7 +31,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.42.0_c4zyna56jjjrggqkyejnaxjxfu
   eslint: 8.26.0
   eslint-config-prettier: 8.5.0_eslint@8.26.0
-  eslint-plugin-solid: 0.7.4_wyqvi574yv7oiwfeinomdzmc3m
+  eslint-plugin-solid: 0.8.0_wyqvi574yv7oiwfeinomdzmc3m
   jsdom: 20.0.2
   rollup-plugin-visualizer: 5.8.3
   solid-testing-library: 0.3.0_solid-js@1.6.1
@@ -787,26 +787,6 @@ packages:
       typescript: 4.8.4
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@typescript-eslint/utils/5.40.1_wyqvi574yv7oiwfeinomdzmc3m:
-    resolution: {integrity: sha512-a2TAVScoX9fjryNrW6BZRnreDUszxqm9eQ9Esv8n5nXApMW0zeANUYlwh/DED04SC/ifuBvXgZpIK5xeJHQ3aw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-    dependencies:
-      '@types/json-schema': 7.0.11
-      '@types/semver': 7.3.12
-      '@typescript-eslint/scope-manager': 5.40.1
-      '@typescript-eslint/types': 5.40.1
-      '@typescript-eslint/typescript-estree': 5.40.1_typescript@4.8.4
-      eslint: 8.26.0
-      eslint-scope: 5.1.1
-      eslint-utils: 3.0.0_eslint@8.26.0
-      semver: 7.3.8
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
     dev: true
 
   /@typescript-eslint/utils/5.42.0_wyqvi574yv7oiwfeinomdzmc3m:
@@ -1668,13 +1648,13 @@ packages:
       eslint: 8.26.0
     dev: true
 
-  /eslint-plugin-solid/0.7.4_wyqvi574yv7oiwfeinomdzmc3m:
-    resolution: {integrity: sha512-AqGl5gyTA2qpF3VnzHcXgZuCjYp7a1Rmukcg+OIPA4fX7TkmsYZDcclh5jw9JwPsc4IcU8T9RYkJW5pQ52Gzcg==}
+  /eslint-plugin-solid/0.8.0_wyqvi574yv7oiwfeinomdzmc3m:
+    resolution: {integrity: sha512-yzTpqZ4+qGO14aM2rii9waonMNqSlpXHID2GMREYCOWpbIrkC5gILXpLl/+ZWFHSJDvsQN+/COobBkqizn7pkw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@typescript-eslint/utils': 5.40.1_wyqvi574yv7oiwfeinomdzmc3m
+      '@typescript-eslint/utils': 5.42.0_wyqvi574yv7oiwfeinomdzmc3m
       eslint: 8.26.0
       is-html: 2.0.0
       jsx-ast-utils: 3.3.3
