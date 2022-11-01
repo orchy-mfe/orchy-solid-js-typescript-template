@@ -24,7 +24,7 @@
     "vite-plugin-qiankun": "^1.0.15",
     "vite-plugin-solid": "^2.3.10",
     "vite-plugin-solid-svg": "^0.5.0",
-    "vitest": "^0.24.4"
+    "vitest": "^0.24.5"
   },
   "dependencies": {
     "@solidjs/router": "^0.5.0",
