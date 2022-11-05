@@ -17,7 +17,7 @@ specifiers:
   vite: ^3.2.2
   vite-plugin-qiankun: ^1.0.15
   vite-plugin-solid: ^2.4.0
-  vite-plugin-solid-svg: ^0.5.0
+  vite-plugin-solid-svg: ^0.6.0
   vitest: ^0.24.5
 
 dependencies:
@@ -39,7 +39,7 @@ devDependencies:
   vite: 3.2.2
   vite-plugin-qiankun: 1.0.15_t4ne7jgngekqctbesvavhjku3m
   vite-plugin-solid: 2.4.0_solid-js@1.6.1+vite@3.2.2
-  vite-plugin-solid-svg: 0.5.0_solid-js@1.6.1+vite@3.2.2
+  vite-plugin-solid-svg: 0.6.0_solid-js@1.6.1+vite@3.2.2
   vitest: 0.24.5_jsdom@20.0.2
 
 packages:
@@ -3190,13 +3190,12 @@ packages:
       vite: 3.2.2
     dev: true
 
-  /vite-plugin-solid-svg/0.5.0_solid-js@1.6.1+vite@3.2.2:
-    resolution: {integrity: sha512-22aVtQwnV95I4c0y4vw6ZZvkYxTpttTPcejSjFh/YR1hJjLk8MkXRjAp3SbnRUZ96NiOvY72IC1uKAU5Hr6qkQ==}
+  /vite-plugin-solid-svg/0.6.0_solid-js@1.6.1+vite@3.2.2:
+    resolution: {integrity: sha512-lKuRDmAG/Qm317dgbV1gwtHuzjk4WJQY1nsIBIywcEp8Sie1lzGKcXnfZEpe2itvNO+tKV8YVLkE+H2BEPcXcg==}
     peerDependencies:
       solid-js: ^1
       vite: '>=2.4'
     dependencies:
-      fast-glob: 3.2.12
       solid-js: 1.6.1
       svgo: 2.8.0
       vite: 3.2.2
