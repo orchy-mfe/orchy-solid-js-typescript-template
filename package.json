@@ -13,7 +13,7 @@
     "@orchy-mfe/models": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
-    "eslint": "^8.26.0",
+    "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-solid": "^0.8.0",
     "jsdom": "^20.0.2",
