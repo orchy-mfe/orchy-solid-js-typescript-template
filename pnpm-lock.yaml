@@ -12,7 +12,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
   solid-js: ^1.6.1
-  solid-testing-library: ^0.3.0
+  solid-testing-library: ^0.5.0
   typescript: ^4.8.4
   vite: ^3.2.3
   vite-plugin-qiankun: ^1.0.15
@@ -34,7 +34,7 @@ devDependencies:
   eslint-plugin-solid: 0.8.0_rmayb2veg2btbq6mbmnyivgasy
   jsdom: 20.0.2
   rollup-plugin-visualizer: 5.8.3
-  solid-testing-library: 0.3.0_solid-js@1.6.1
+  solid-testing-library: 0.5.0_solid-js@1.6.1
   typescript: 4.8.4
   vite: 3.2.3
   vite-plugin-qiankun: 1.0.15_a6ew7tpsyhac2tv7oyit7cvkku
@@ -320,14 +320,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/runtime-corejs3/7.19.6:
-    resolution: {integrity: sha512-oWNn1ZlGde7b4i/3tnixpH9qI0bOAACiUs+KEES4UUCnsPjVWFlWdLV/iwJuPC2qp3EowbAqsm+0XqNwnwYhxA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      core-js-pure: 3.25.5
-      regenerator-runtime: 0.13.10
-    dev: true
-
   /@babel/runtime/7.19.4:
     resolution: {integrity: sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==}
     engines: {node: '>=6.9.0'}
@@ -439,17 +431,6 @@ packages:
       '@sinclair/typebox': 0.24.47
     dev: true
 
-  /@jest/types/26.6.2:
-    resolution: {integrity: sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==}
-    engines: {node: '>= 10.14.2'}
-    dependencies:
-      '@types/istanbul-lib-coverage': 2.0.4
-      '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.11.3
-      '@types/yargs': 15.0.14
-      chalk: 4.1.2
-    dev: true
-
   /@jest/types/29.2.1:
     resolution: {integrity: sha512-O/QNDQODLnINEPAI0cl9U6zUIDXEWXt6IC1o2N2QENuos7hlGUIthlKyV4p6ki3TvXFX071blj8HUhgLGquPjw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -540,18 +521,18 @@ packages:
       solid-js: 1.6.1
     dev: false
 
-  /@testing-library/dom/7.31.2:
-    resolution: {integrity: sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==}
-    engines: {node: '>=10'}
+  /@testing-library/dom/8.19.0:
+    resolution: {integrity: sha512-6YWYPPpxG3e/xOo6HIWwB/58HukkwIVTOaZ0VwdMVjhRUX/01E4FtQbck9GazOOj7MXHc5RBzMrU86iBJHbI+A==}
+    engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/runtime': 7.19.4
       '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
+      aria-query: 5.0.2
       chalk: 4.1.2
       dom-accessibility-api: 0.5.14
       lz-string: 1.4.4
-      pretty-format: 26.6.2
+      pretty-format: 27.5.1
     dev: true
 
   /@testing-library/jest-dom/5.16.5:
@@ -640,12 +621,6 @@ packages:
 
   /@types/yargs-parser/21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
-    dev: true
-
-  /@types/yargs/15.0.14:
-    resolution: {integrity: sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ==}
-    dependencies:
-      '@types/yargs-parser': 21.0.0
     dev: true
 
   /@types/yargs/17.0.13:
@@ -963,14 +938,6 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
-  /aria-query/4.2.2:
-    resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
-    engines: {node: '>=6.0'}
-    dependencies:
-      '@babel/runtime': 7.19.4
-      '@babel/runtime-corejs3': 7.19.6
-    dev: true
-
   /aria-query/5.0.2:
     resolution: {integrity: sha512-eigU3vhqSO+Z8BKDnVLN/ompjhf3pYzecKXz8+whRy+9gZu8n1TCGfwzQUUPnqdHl9ax1Hr9031orZ+UOEYr7Q==}
     engines: {node: '>=6.0'}
@@ -1190,11 +1157,6 @@ packages:
     resolution: {integrity: sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==}
     dependencies:
       safe-buffer: 5.1.2
-    dev: true
-
-  /core-js-pure/3.25.5:
-    resolution: {integrity: sha512-oml3M22pHM+igfWHDfdLVq2ShWmjM2V4L+dQEBs0DWVIqEm9WHCwGAlZ6BmyBQGy5sFrJmcx+856D9lVKyGWYg==}
-    requiresBuild: true
     dev: true
 
   /cross-spawn/7.0.3:
@@ -2759,13 +2721,12 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /pretty-format/26.6.2:
-    resolution: {integrity: sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==}
-    engines: {node: '>= 10'}
+  /pretty-format/27.5.1:
+    resolution: {integrity: sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==}
+    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@jest/types': 26.6.2
       ansi-regex: 5.0.1
-      ansi-styles: 4.3.0
+      ansi-styles: 5.2.0
       react-is: 17.0.2
     dev: true
 
@@ -2975,13 +2936,13 @@ packages:
       solid-js: 1.6.1
     dev: true
 
-  /solid-testing-library/0.3.0_solid-js@1.6.1:
-    resolution: {integrity: sha512-6NWVbySNVzyReBm2N6p3eF8bzxRZXHZTAmPix4vFWYol16QWVjNQsEUxvr+ZOutb0yuMZmNuGx3b6WIJYmjwMQ==}
+  /solid-testing-library/0.5.0_solid-js@1.6.1:
+    resolution: {integrity: sha512-vr4Ke9Dq3bUFLaXOcN8/IVn2e9Q37w4vdmoIOmFBIPs7iCJX9IxuC0IdQqK8nzBZMQqceijkfyCE3Qc407KmaA==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
     dependencies:
-      '@testing-library/dom': 7.31.2
+      '@testing-library/dom': 8.19.0
       solid-js: 1.6.1
     dev: true
 
