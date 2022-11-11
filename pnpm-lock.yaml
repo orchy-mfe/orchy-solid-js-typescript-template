@@ -11,7 +11,7 @@ specifiers:
   jsdom: ^20.0.2
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
-  solid-js: ^1.6.1
+  solid-js: ^1.6.2
   solid-testing-library: ^0.5.0
   typescript: ^4.8.4
   vite: ^3.2.3
@@ -21,9 +21,9 @@ specifiers:
   vitest: ^0.25.1
 
 dependencies:
-  '@solidjs/router': 0.5.0_solid-js@1.6.1
+  '@solidjs/router': 0.5.0_solid-js@1.6.2
   rxjs: 7.5.7
-  solid-js: 1.6.1
+  solid-js: 1.6.2
 
 devDependencies:
   '@orchy-mfe/models': 0.0.1
@@ -34,12 +34,12 @@ devDependencies:
   eslint-plugin-solid: 0.8.0_rmayb2veg2btbq6mbmnyivgasy
   jsdom: 20.0.2
   rollup-plugin-visualizer: 5.8.3
-  solid-testing-library: 0.5.0_solid-js@1.6.1
+  solid-testing-library: 0.5.0_solid-js@1.6.2
   typescript: 4.8.4
   vite: 3.2.3
   vite-plugin-qiankun: 1.0.15_a6ew7tpsyhac2tv7oyit7cvkku
-  vite-plugin-solid: 2.4.0_solid-js@1.6.1+vite@3.2.3
-  vite-plugin-solid-svg: 0.6.0_solid-js@1.6.1+vite@3.2.3
+  vite-plugin-solid: 2.4.0_solid-js@1.6.2+vite@3.2.3
+  vite-plugin-solid-svg: 0.6.0_solid-js@1.6.2+vite@3.2.3
   vitest: 0.25.1_jsdom@20.0.2
 
 packages:
@@ -513,12 +513,12 @@ packages:
     resolution: {integrity: sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A==}
     dev: true
 
-  /@solidjs/router/0.5.0_solid-js@1.6.1:
+  /@solidjs/router/0.5.0_solid-js@1.6.2:
     resolution: {integrity: sha512-rNR07l21tWWDVmCbaapggB89rEX7jlM2XChpTLqEGEnj46LzVZ8zgvjcF6NNKScByAlLpoQUkVIjB2KHpcMi+w==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
-      solid-js: 1.6.1
+      solid-js: 1.6.2
     dev: false
 
   /@testing-library/dom/8.19.0:
@@ -2920,12 +2920,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.6.1:
-    resolution: {integrity: sha512-i8OmR419Hr0918Or6sm1ET/cgmxTtAB7Bdz/UwhZ7G2THixrvVSO3jd+C7YqMKKfVwmf8PJ2gUSbKE8NKv28GA==}
+  /solid-js/1.6.2:
+    resolution: {integrity: sha512-AZBsj+Yn1xliniTTeuQKG9V7VQVkQ8lZmSKvBjpcVSoZeF7nvt/N5f7Kcsx6QSufioa2YgvBjkIiA0cM0qhotw==}
     dependencies:
       csstype: 3.1.0
 
-  /solid-refresh/0.4.1_solid-js@1.6.1:
+  /solid-refresh/0.4.1_solid-js@1.6.2:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -2933,17 +2933,17 @@ packages:
       '@babel/generator': 7.18.7
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.18.8
-      solid-js: 1.6.1
+      solid-js: 1.6.2
     dev: true
 
-  /solid-testing-library/0.5.0_solid-js@1.6.1:
+  /solid-testing-library/0.5.0_solid-js@1.6.2:
     resolution: {integrity: sha512-vr4Ke9Dq3bUFLaXOcN8/IVn2e9Q37w4vdmoIOmFBIPs7iCJX9IxuC0IdQqK8nzBZMQqceijkfyCE3Qc407KmaA==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
     dependencies:
       '@testing-library/dom': 8.19.0
-      solid-js: 1.6.1
+      solid-js: 1.6.2
     dev: true
 
   /source-map-js/1.0.2:
@@ -3213,18 +3213,18 @@ packages:
       vite: 3.2.3
     dev: true
 
-  /vite-plugin-solid-svg/0.6.0_solid-js@1.6.1+vite@3.2.3:
+  /vite-plugin-solid-svg/0.6.0_solid-js@1.6.2+vite@3.2.3:
     resolution: {integrity: sha512-lKuRDmAG/Qm317dgbV1gwtHuzjk4WJQY1nsIBIywcEp8Sie1lzGKcXnfZEpe2itvNO+tKV8YVLkE+H2BEPcXcg==}
     peerDependencies:
       solid-js: ^1
       vite: '>=2.4'
     dependencies:
-      solid-js: 1.6.1
+      solid-js: 1.6.2
       svgo: 2.8.0
       vite: 3.2.3
     dev: true
 
-  /vite-plugin-solid/2.4.0_solid-js@1.6.1+vite@3.2.3:
+  /vite-plugin-solid/2.4.0_solid-js@1.6.2+vite@3.2.3:
     resolution: {integrity: sha512-Rr+t2sr9TWIvH16yzBZzx6O9YSpYAvcwKUMPqbi/4iU3mRumXQ4O10i1XGtQIynC7U3XwJsMzAJigDFGbiJBiw==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -3234,8 +3234,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.6
       babel-preset-solid: 1.4.6_@babel+core@7.18.6
       merge-anything: 5.0.2
-      solid-js: 1.6.1
-      solid-refresh: 0.4.1_solid-js@1.6.1
+      solid-js: 1.6.2
+      solid-refresh: 0.4.1_solid-js@1.6.2
       vite: 3.2.3
       vitefu: 0.1.1_vite@3.2.3
     transitivePeerDependencies:
