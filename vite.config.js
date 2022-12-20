@@ -20,6 +20,13 @@ export default defineConfig(({mode}) => ({
     mockReset: true,
     environment: 'jsdom',
   },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
   resolve: {
     conditions: ['development', 'browser'],
   },
