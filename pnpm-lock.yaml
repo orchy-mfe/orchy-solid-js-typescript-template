@@ -10,7 +10,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-solid: ^0.9.1
   jsdom: ^20.0.3
-  rollup-plugin-visualizer: ^5.8.3
+  rollup-plugin-visualizer: ^5.9.0
   rxjs: ^7.8.0
   solid-js: ^1.6.6
   solid-testing-library: ^0.5.0
@@ -35,7 +35,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.30.0
   eslint-plugin-solid: 0.9.1_lzzuuodtsqwxnvqeq4g4likcqa
   jsdom: 20.0.3
-  rollup-plugin-visualizer: 5.8.3
+  rollup-plugin-visualizer: 5.9.0
   solid-testing-library: 0.5.0_solid-js@1.6.6
   typescript: 4.9.4
   vite: 4.0.3
@@ -2793,8 +2793,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.3:
-    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
+  /rollup-plugin-visualizer/5.9.0:
+    resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -2804,6 +2804,7 @@ packages:
         optional: true
     dependencies:
       open: 8.4.0
+      picomatch: 2.3.1
       source-map: 0.7.4
       yargs: 17.6.0
     dev: true
