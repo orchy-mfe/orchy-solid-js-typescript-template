@@ -18,7 +18,7 @@ specifiers:
   vite: ^4.1.4
   vite-plugin-css-injected-by-js: ^3.0.1
   vite-plugin-solid: ^2.6.0
-  vite-plugin-solid-svg: ^0.6.0
+  vite-plugin-solid-svg: ^0.6.1
   vitest: ^0.29.2
 
 dependencies:
@@ -41,7 +41,7 @@ devDependencies:
   vite: 4.1.4
   vite-plugin-css-injected-by-js: 3.0.1_vite@4.1.4
   vite-plugin-solid: 2.6.0_solid-js@1.6.11+vite@4.1.4
-  vite-plugin-solid-svg: 0.6.0_solid-js@1.6.11+vite@4.1.4
+  vite-plugin-solid-svg: 0.6.1_solid-js@1.6.11+vite@4.1.4
   vitest: 0.29.2_jsdom@21.1.0
 
 packages:
@@ -3395,8 +3395,8 @@ packages:
       vite: 4.1.4
     dev: true
 
-  /vite-plugin-solid-svg/0.6.0_solid-js@1.6.11+vite@4.1.4:
-    resolution: {integrity: sha512-lKuRDmAG/Qm317dgbV1gwtHuzjk4WJQY1nsIBIywcEp8Sie1lzGKcXnfZEpe2itvNO+tKV8YVLkE+H2BEPcXcg==}
+  /vite-plugin-solid-svg/0.6.1_solid-js@1.6.11+vite@4.1.4:
+    resolution: {integrity: sha512-tKprBmA1h4lofRnZ/oi8SJQ1vdL0U+H2gVo7ZL+PKNIVeOn2A0M3t83A2xsMZjmboIZ17Y27xrugLN+phmdb6Q==}
     peerDependencies:
       solid-js: ^1
       vite: '>=2.4'
