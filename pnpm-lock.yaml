@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@orchy-mfe/models': ^0.3.0
   '@orchy-mfe/spa-adapter': ^0.1.1
-  '@solidjs/router': ^0.8.1
+  '@solidjs/router': ^0.8.2
   '@testing-library/jest-dom': ^5.16.5
   '@typescript-eslint/eslint-plugin': ^5.56.0
   eslint: ^8.36.0
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   '@orchy-mfe/spa-adapter': 0.1.1
-  '@solidjs/router': 0.8.1_solid-js@1.6.15
+  '@solidjs/router': 0.8.2_solid-js@1.6.15
   rxjs: 7.8.0
   solid-js: 1.6.15
 
@@ -747,8 +747,8 @@ packages:
     resolution: {integrity: sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A==}
     dev: true
 
-  /@solidjs/router/0.8.1_solid-js@1.6.15:
-    resolution: {integrity: sha512-BjDNvUbeyUjBoxCH89QrYCh0Z6gtibT9q6+z5DCa5JjIcsWCQ+9IcETcWqzvWZlir/vObdK1p69hMW0R7MuetA==}
+  /@solidjs/router/0.8.2_solid-js@1.6.15:
+    resolution: {integrity: sha512-gUKW+LZqxtX6y/Aw6JKyy4gQ9E7dLqp513oB9pSYJR1HM5c56Pf7eijzyXX+b3WuXig18Cxqah4tMtF0YGu80w==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
