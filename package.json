@@ -30,6 +30,6 @@
     "@orchy-mfe/spa-adapter": "^0.1.1",
     "@solidjs/router": "^0.8.2",
     "rxjs": "^7.8.0",
-    "solid-js": "^1.6.16"
+    "solid-js": "^1.7.0"
   }
 }
