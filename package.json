@@ -24,7 +24,7 @@
     "vite-plugin-css-injected-by-js": "^3.2.0",
     "vite-plugin-solid": "^2.7.0",
     "vite-plugin-solid-svg": "^0.6.2",
-    "vitest": "^0.32.4"
+    "vitest": "^0.33.0"
   },
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
