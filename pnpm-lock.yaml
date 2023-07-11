@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^2.7.0
     version: 2.7.0(solid-js@1.7.7)(vite@4.4.2)
   vite-plugin-solid-svg:
-    specifier: ^0.6.2
-    version: 0.6.2(solid-js@1.7.7)(vite@4.4.2)
+    specifier: ^0.6.3
+    version: 0.6.3(solid-js@1.7.7)(vite@4.4.2)
   vitest:
     specifier: ^0.33.0
     version: 0.33.0(jsdom@22.1.0)
@@ -907,6 +907,12 @@ packages:
 
   /@types/stack-utils@2.0.1:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
+    dev: true
+
+  /@types/svgo@2.6.4:
+    resolution: {integrity: sha512-l4cmyPEckf8moNYHdJ+4wkHvFxjyW6ulm9l4YGaOxeyBWPhBOT0gvni1InpFPdzx1dKf/2s62qGITwxNWnPQng==}
+    dependencies:
+      '@types/node': 18.11.3
     dev: true
 
   /@types/testing-library__jest-dom@5.14.5:
@@ -3290,12 +3296,13 @@ packages:
       vite: 4.4.2(@types/node@18.11.3)
     dev: true
 
-  /vite-plugin-solid-svg@0.6.2(solid-js@1.7.7)(vite@4.4.2):
-    resolution: {integrity: sha512-8cyLlWyA1P2LLoBxkf5786I3afOsfWF47GuIce94zjaMNEAKpYh5V77g9uL5IPeQymYyVvrqbkDXYSwTi2hggw==}
+  /vite-plugin-solid-svg@0.6.3(solid-js@1.7.7)(vite@4.4.2):
+    resolution: {integrity: sha512-FvYbW8R5+xSZJjCcVKehhjsEXCbr/TO5NA60EB52Szk9AbQ0t0KLS2b8KTYgtv4eqeUyl1Unt0J+mfXVJRhe+A==}
     peerDependencies:
       solid-js: ^1
       vite: '>=2.4'
     dependencies:
+      '@types/svgo': 2.6.4
       solid-js: 1.7.7
       svgo: 2.8.0
       vite: 4.4.2(@types/node@18.11.3)
