@@ -50,17 +50,17 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.1.1
-    version: 5.1.1
+    specifier: ^5.1.2
+    version: 5.1.2
   vite-plugin-css-injected-by-js:
     specifier: ^3.4.0
-    version: 3.4.0(vite@5.1.1)
+    version: 3.4.0(vite@5.1.2)
   vite-plugin-solid:
     specifier: ^2.8.2
-    version: 2.8.2(solid-js@1.8.14)(vite@5.1.1)
+    version: 2.8.2(solid-js@1.8.14)(vite@5.1.2)
   vite-plugin-solid-svg:
     specifier: ^0.8.0
-    version: 0.8.0(solid-js@1.8.14)(vite@5.1.1)
+    version: 0.8.0(solid-js@1.8.14)(vite@5.1.2)
   vitest:
     specifier: ^1.2.2
     version: 1.2.2(jsdom@24.0.0)
@@ -3342,7 +3342,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.1.1
+      vite: 5.1.2
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3354,15 +3354,15 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.4.0(vite@5.1.1):
+  /vite-plugin-css-injected-by-js@3.4.0(vite@5.1.2):
     resolution: {integrity: sha512-wS5+UYtJXQ/vNornsqTQxOLBVO/UjXU54ZsYMeX0mj2OrbStMQ4GLgvneVDQGPwyGJcm/ntBPawc2lA7xx+Lpg==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 5.1.1
+      vite: 5.1.2
     dev: true
 
-  /vite-plugin-solid-svg@0.8.0(solid-js@1.8.14)(vite@5.1.1):
+  /vite-plugin-solid-svg@0.8.0(solid-js@1.8.14)(vite@5.1.2):
     resolution: {integrity: sha512-m4HQ6nnwjPqiJONnRRZjLkOC86ZbgfBMpE6UnqGI62R2a7SZB2To/v6oeiZ+17LFtYYCNbZ2DPQT66a/YmqM3A==}
     peerDependencies:
       solid-js: ^1
@@ -3370,10 +3370,10 @@ packages:
     dependencies:
       solid-js: 1.8.14
       svgo: 3.1.0
-      vite: 5.1.1
+      vite: 5.1.2
     dev: true
 
-  /vite-plugin-solid@2.8.2(solid-js@1.8.14)(vite@5.1.1):
+  /vite-plugin-solid@2.8.2(solid-js@1.8.14)(vite@5.1.2):
     resolution: {integrity: sha512-HcvMs6DTxBaO4kE3psnirPQBCUUdYeQkCNKuB2TpEkJsxb6BGP6/7qkbbCSMxn25PyNdjvzVi1WXi0ou8KPgHw==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -3386,14 +3386,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.14
       solid-refresh: 0.6.3(solid-js@1.8.14)
-      vite: 5.1.1
-      vitefu: 0.2.5(vite@5.1.1)
+      vite: 5.1.2
+      vitefu: 0.2.5(vite@5.1.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.1:
-    resolution: {integrity: sha512-wclpAgY3F1tR7t9LL5CcHC41YPkQIpKUGeIuT8MdNwNZr6OqOTLs7JX5vIHAtzqLWXts0T+GDrh9pN2arneKqg==}
+  /vite@5.1.2:
+    resolution: {integrity: sha512-uwiFebQbTWRIGbCaTEBVAfKqgqKNKMJ2uPXsXeLIZxM8MVMjoS3j0cG8NrPxdDIadaWnPSjrkLWffLSC+uiP3Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3427,7 +3427,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.1.1):
+  /vitefu@0.2.5(vite@5.1.2):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -3435,7 +3435,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.1
+      vite: 5.1.2
     dev: true
 
   /vitest@1.2.2(jsdom@24.0.0):
@@ -3482,7 +3482,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.2
-      vite: 5.1.1
+      vite: 5.1.2
       vite-node: 1.2.2
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
