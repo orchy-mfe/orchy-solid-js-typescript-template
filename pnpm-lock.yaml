@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.3.0
     version: 0.3.0
   '@testing-library/jest-dom':
-    specifier: ^6.4.6
-    version: 6.4.6(vitest@2.0.4)
+    specifier: ^6.4.7
+    version: 6.4.7(vitest@2.0.4)
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.16.1
     version: 7.16.1(@typescript-eslint/parser@7.0.1)(eslint@8.57.0)(typescript@5.5.3)
@@ -918,8 +918,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom@6.4.6(vitest@2.0.4):
-    resolution: {integrity: sha512-8qpnGVincVDLEcQXWaHOf6zmlbwTKc6Us6PPu4CRnPXCzo2OGBS5cwgMMOWdxDpEz1mkbvXHpEy99M5Yvt682w==}
+  /@testing-library/jest-dom@6.4.7(vitest@2.0.4):
+    resolution: {integrity: sha512-GaKJ0nijoNf30dWSOOzQEBkWBRk4rG3C/efw8zKrimNuZpnS/6/AEwo0WvZHgJxG84cNCgxt+mtbe1fsvfLp2A==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@jest/globals': '>= 28'
