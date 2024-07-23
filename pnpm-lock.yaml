@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.3.0
     version: 0.3.0
   '@testing-library/jest-dom':
-    specifier: ^6.4.7
-    version: 6.4.7(vitest@2.0.4)
+    specifier: ^6.4.8
+    version: 6.4.8
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.17.0
     version: 7.17.0(@typescript-eslint/parser@7.0.1)(eslint@8.57.0)(typescript@5.5.4)
@@ -918,26 +918,9 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom@6.4.7(vitest@2.0.4):
-    resolution: {integrity: sha512-GaKJ0nijoNf30dWSOOzQEBkWBRk4rG3C/efw8zKrimNuZpnS/6/AEwo0WvZHgJxG84cNCgxt+mtbe1fsvfLp2A==}
+  /@testing-library/jest-dom@6.4.8:
+    resolution: {integrity: sha512-JD0G+Zc38f5MBHA4NgxQMR5XtO5Jx9g86jqturNTt2WUfRmLDIY7iKkWHDCCTiDuFMre6nxAD5wHw9W5kI4rGw==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
-    peerDependencies:
-      '@jest/globals': '>= 28'
-      '@types/bun': latest
-      '@types/jest': '>= 28'
-      jest: '>= 28'
-      vitest: '>= 0.32'
-    peerDependenciesMeta:
-      '@jest/globals':
-        optional: true
-      '@types/bun':
-        optional: true
-      '@types/jest':
-        optional: true
-      jest:
-        optional: true
-      vitest:
-        optional: true
     dependencies:
       '@adobe/css-tools': 4.4.0
       '@babel/runtime': 7.19.4
@@ -947,7 +930,6 @@ packages:
       dom-accessibility-api: 0.6.3
       lodash: 4.17.21
       redent: 3.0.0
-      vitest: 2.0.4(jsdom@24.1.1)
     dev: true
 
   /@trysound/sax@0.2.0:
