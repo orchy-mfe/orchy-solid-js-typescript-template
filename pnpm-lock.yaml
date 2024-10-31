@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@solidjs/router':
-    specifier: ^0.14.10
-    version: 0.14.10(solid-js@1.9.3)
+    specifier: ^0.15.0
+    version: 0.15.0(solid-js@1.9.3)
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -917,8 +917,8 @@ packages:
     dev: true
     optional: true
 
-  /@solidjs/router@0.14.10(solid-js@1.9.3):
-    resolution: {integrity: sha512-5B8LVgvvXijfXyXWPVLUm7RQ05BhjIpAyRkYVDZtrR3OaSvftXobWc6qSEwk4ICLoGi/IE9CUp2LUdCBIs9AXg==}
+  /@solidjs/router@0.15.0(solid-js@1.9.3):
+    resolution: {integrity: sha512-Q286eKFh9sY2OeSISqiNrZW5ZJ7M58fkxCfFeYg0KE15P9QMwhT9YqnInE/OdzavWzXU3ZYclV2NGVKz8pfqWg==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
