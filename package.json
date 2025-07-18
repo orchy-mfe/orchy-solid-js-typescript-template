@@ -14,7 +14,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
     "eslint": "^8.57.1",
-    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-solid": "^0.12.1",
     "jsdom": "^26.0.0",
     "rollup-plugin-visualizer": "^5.13.1",
