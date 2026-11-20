@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@solidjs/router':
-    specifier: ^0.15.3
-    version: 0.15.3(solid-js@1.9.4)
+    specifier: ^2.0.1
+    version: 2.0.1(@solidjs/web@2.0.3)(solid-js@1.9.4)
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -1004,11 +1004,29 @@ packages:
     dev: true
     optional: true
 
-  /@solidjs/router@0.15.3(solid-js@1.9.4):
-    resolution: {integrity: sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==}
+  /@solidjs/router@2.0.1(@solidjs/web@2.0.3)(solid-js@1.9.4):
+    resolution: {integrity: sha512-XFmb2A08mcvSnhKoM4x16Kt6olZMlnDUlzHA3w8nX3gpxPxOs40YP07rH2uNuTliTU7lavkcKIlpQzWzRi4yDw==}
     peerDependencies:
-      solid-js: ^1.8.6
+      '@solidjs/web': ^2.0.0
+      filesystem-routing: '>=0.4.0'
+      solid-js: ^2.0.0
+    peerDependenciesMeta:
+      filesystem-routing:
+        optional: true
     dependencies:
+      '@solidjs/web': 2.0.3(solid-js@1.9.4)
+      solid-js: 1.9.4
+    dev: false
+
+  /@solidjs/web@2.0.3(solid-js@1.9.4):
+    resolution: {integrity: sha512-XYl9JGOtQ8yJSZRnd6uC+5gYXsYvnIRNxhn89m+F1v6D4d4ZFdTJY2Lq/8XJ3YcjckkCrK/mNfd3kIiqqgnG7w==}
+    engines: {node: '>=22.12.0'}
+    peerDependencies:
+      solid-js: ^2.0.3
+    dependencies:
+      csstype: 3.1.0
+      seroval: 1.8.2
+      seroval-plugins: 1.8.0(seroval@1.8.2)
       solid-js: 1.9.4
     dev: false
 
@@ -3073,9 +3091,23 @@ packages:
     dependencies:
       seroval: 1.1.0
 
+  /seroval-plugins@1.8.0(seroval@1.8.2):
+    resolution: {integrity: sha512-96vBb12rDvPPwdKUgWw1op3fGq8AVBFOr0IllbnM72yR5J9WWXF18cQ4g1XfDO7HCyh2dt70P3XdtyRayP8FWg==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      seroval: ^1.8.0
+    dependencies:
+      seroval: 1.8.2
+    dev: false
+
   /seroval@1.1.0:
     resolution: {integrity: sha512-74Wpe+hhPx4V8NFe00I2Fu9gTJopKoH5vE7nCqFzVgKOXV8AnN23T58K79QLYQotzGpH93UZ+UN2Y11j9huZJg==}
     engines: {node: '>=10'}
+
+  /seroval@1.8.2:
+    resolution: {integrity: sha512-zmMxi/9MdLK1MKazLmIP6Rk39RuK0Xydd+QHeOYntS37olJeTjB3+nwVj4ce/ZWiZJeRhcO5htfxt0mUzQBscQ==}
+    engines: {node: '>=20'}
+    dev: false
 
   /shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
